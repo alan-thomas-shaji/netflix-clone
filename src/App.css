@@ -30,10 +30,24 @@
 
 .movies-container{
   display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+  padding: 20px;
+}
+
+
+.movies-container::-webkit-scrollbar{
+  display: none;
 }
 
 .poster {
   object-fit: contain;
   width: 100%;
   max-height: 100px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.poster:hover{
+  transform: scale(1.08);
 }
