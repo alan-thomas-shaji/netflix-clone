@@ -18,7 +18,6 @@ function Row({ title, fetchURL, isLargeRow }) {
       fetddata();
     },[fetchURL]);
 
-    console.log(movies);
 
   return (
   <div className='row'>
