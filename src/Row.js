@@ -5,7 +5,7 @@ import YouTube from 'react-youtube';
 import movieTrailer from 'movie-trailer';
 
 
-const imageBase = `https://image.tmdb.org/t/p/original/`;
+const imageBase = `https://image.tmdb.org/t/p/w185/`;
 
 function Row({ title, fetchURL, isLargeRow }) {
 
